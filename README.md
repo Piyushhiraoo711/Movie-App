@@ -58,14 +58,12 @@ This app allows users to explore movies by category, search and filter titles, m
 
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/movie-app.git
-cd movie-app
 
 2️⃣ Install dependencies
 npm install
 
 3️⃣ Start the mock database (if using json-server)
-npx json-server --watch src/database/db.json --port 5000
+npx json-server --watch src/database/db.json --port 3000
 
 4️⃣ Start the React app
 npm start
